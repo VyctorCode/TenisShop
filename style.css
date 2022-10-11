@@ -1,32 +1,41 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    background-color: rgb(26, 26, 58);
+* {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: linear-gradient(180deg,
+            hsl(240deg 100% 20%) 0%,
+            hsl(266deg 95% 29%) 48%,
+            hsl(277deg 91% 37%) 68%,
+            hsl(285deg 91% 45%) 83%,
+            hsl(293deg 100% 50%) 100%);
+    background-attachment: fixed;
+    display: flex;
 }
 
 header{
     display: flex;
-    height: 100vh;
 }
-.logo{
-    background-color: rgb(5, 5, 49);
-    width: 60%;
-    box-shadow: 6px 4px 20px rgba(0, 0, 0, 0.579);
+
+.centro{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 6px 5px 20px 0px rgba(0, 0, 0, 0.76);
     display: flex;
-    ;
-    }
-
-.divisoria{
-    width: 10px;
-    background: rgba(0, 0, 0, 0);
-
-}
-.login{
-   background-color: rgb(4, 21, 87);
-   width: 50%;
-   height: 75%;
-   border-radius: 50px 0px 0px 50px;
-    box-shadow: 5px 8px 20px 0px rgba(0, 0, 0, 0.435);
 }
 
+.avatar{
+    height: 200px;
+    width: 200px;
+    background-image: url(img/login.png);
+    background-size: contain;
+    margin-top: auto;
+    margin-bottom: auto;
+}
