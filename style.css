@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(26, 26, 58);
+}
+
+header{
+    display: flex;
+    height: 100vh;
+}
+.logo{
+    background-color: rgb(5, 5, 49);
+    width: 60%;
+    box-shadow: 6px 4px 20px rgba(0, 0, 0, 0.579);
+    display: flex;
+    ;
+    }
+
+.divisoria{
+    width: 10px;
+    background: rgba(0, 0, 0, 0);
+
+}
+.login{
+   background-color: rgb(4, 21, 87);
+   width: 50%;
+   height: 75%;
+   border-radius: 50px 0px 0px 50px;
+    box-shadow: 5px 8px 20px 0px rgba(0, 0, 0, 0.435);
+}
+
